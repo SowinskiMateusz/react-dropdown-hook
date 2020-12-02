@@ -1,0 +1,37 @@
+{
+	"name": "react-dropdown-hook",
+	"version": "1.0.1",
+	"description": "A simple Hook for handling any dropdown actions, not only dropdown components.",
+	"main": "./build/index.js",
+	"types": "./build/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"React",
+		"Hook",
+		"dropdown",
+		"useDropdown",
+		"use-dropdown",
+		"hook",
+		"usedropdown"
+	],
+	"dependencies": {},
+	"author": "Mateusz Sowiński",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SowinskiMateusz/react-dropdown-hook.git"
+	},
+	"bugs": {
+		"url": "https://github.com/SowinskiMateusz/react-dropdown-hook/issues"
+	},
+	"devDependencies": {
+		"typescript": "^3.9.7"
+	},
+	"peerDependencies": {
+		"@types/react": "^17.0.0",
+		"react": "^16.14.0"
+	}
+}
