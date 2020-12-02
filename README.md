@@ -19,22 +19,22 @@ import { FC } from "react";
 import useDropdown from 'react-dropdown-hook';
 
 export const App: FC = () => {
-	const [wrapperRef, dropdownOpen, toggleDropdown, closeDropdown] = useDropdown();
-	return (
-		<div>
-			<div ref={wrapperRef}>
-                <div onClick={toggleDropdown}>
-                    Click me to open menu or other elemet
-                </div>
-				{dropdownOpen &&
-					<>
-						{/**Expanded items */}
-					</> 
-				}
-			</div>
-			<div onClick={closeDropdown}>Close menu after this click</div>
-		</div>
-	)
+  const [wrapperRef, dropdownOpen, toggleDropdown, closeDropdown] = useDropdown();
+  return (
+    <div>
+      <div ref={wrapperRef}>
+        <div onClick={toggleDropdown}>
+          Click me to open menu or other elemet
+        </div>
+	{dropdownOpen &&
+	  <>
+	    {/**Expanded items */}
+	  </> 
+	}
+      </div>
+      <div onClick={closeDropdown}>Close menu after this click</div>
+    </div>
+  )
 }
 ```
 
